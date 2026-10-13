@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+  <!-- The paper: a sheet with a folded corner and two lines of text -->
+  <path d="M16 7h34l16 16v48a7 7 0 0 1-7 7H16a7 7 0 0 1-7-7V14a7 7 0 0 1 7-7Z" fill="#FFFFFF" stroke="#8C96A3" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M50 7v11a5 5 0 0 0 5 5h11Z" fill="#DCE2E9" stroke="#8C96A3" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M20 33h24M20 43h30" stroke="#C3CBD5" stroke-width="5.5" stroke-linecap="round"/>
+  <!-- The rank: the Rank column's pill for CORE A*, set off from the paper by a white edge -->
+  <rect x="23" y="51" width="72" height="44" rx="22" fill="#FFFFFF"/>
+  <rect x="27" y="55" width="64" height="36" rx="18" fill="#CF0000"/>
+  <path d="M59 59.3L62.76 68.62L72.79 69.32L65.09 75.78L67.52 85.53L59 80.2L50.48 85.53L52.91 75.78L45.21 69.32L55.24 68.62Z" fill="#FFFFFF"/>
+</svg>

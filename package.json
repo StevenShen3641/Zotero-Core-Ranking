@@ -1,0 +1,64 @@
+{
+  "name": "zotero-core-ranking",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Tag Zotero items with the CORE or CCF ranking of their venue",
+  "config": {
+    "addonName": "Zotero CORE Ranking",
+    "addonID": "zotero-core-ranking@stevenshen3641.github.io",
+    "addonRef": "coreranking",
+    "addonInstance": "CoreRanking",
+    "prefsPrefix": "extensions.zotero.coreranking"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenShen3641/Zotero-Core-Ranking.git"
+  },
+  "author": "StevenShen3641",
+  "bugs": {
+    "url": "https://github.com/StevenShen3641/Zotero-Core-Ranking/issues"
+  },
+  "homepage": "https://github.com/StevenShen3641/Zotero-Core-Ranking#readme",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "start": "zotero-plugin serve",
+    "build": "zotero-plugin build && tsc --noEmit",
+    "lint:check": "prettier --check . && eslint .",
+    "lint:fix": "prettier --write . && eslint . --fix",
+    "release": "zotero-plugin release",
+    "test": "zotero-plugin test",
+    "update-deps": "npm update --save",
+    "data:update": "python3 scripts/update_rankings.py"
+  },
+  "dependencies": {
+    "zotero-plugin-toolkit": "^5.1.0-beta.13"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^26.0.0",
+    "@zotero-plugin/eslint-config": "^0.6.7",
+    "chai": "^6.2.1",
+    "eslint": "^9.39.2",
+    "mocha": "^11.7.5",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "zotero-plugin-scaffold": "^0.8.2",
+    "zotero-types": "^4.1.0-beta.4"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "endOfLine": "lf",
+    "overrides": [
+      {
+        "files": [
+          "*.xhtml"
+        ],
+        "options": {
+          "htmlWhitespaceSensitivity": "css"
+        }
+      }
+    ]
+  }
+}

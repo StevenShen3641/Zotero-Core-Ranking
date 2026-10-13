@@ -1,0 +1,13 @@
+pref-edition-title = Ranking
+pref-edition = Edition:
+pref-edition-help = Items are ranked with this edition. Items that already have a rank in it keep it; to apply a new edition to them, re-detect.
+pref-fill-libraries =
+    .label = Rank Items Without a Rank
+pref-redetect-libraries =
+    .label = Re-detect Detected Ranks
+pref-libraries-help = Both buttons work on all your libraries. Re-detecting keeps the ranks you set by hand.
+pref-ranks-title = Ranks
+pref-auto-rank =
+    .label = Rank new and changed items automatically
+pref-storage-help = Each item's rank and venue are one line of its Extra field, such as “CORE: A* | NeurIPS”, so the two always belong together. The Rank column and the strip under the tag selector show them. To find items by rank, use Advanced Search with Extra contains “CORE: A* |”.
+pref-manual-help = When you add an item or change its venue fields, its rank and acronym are detected (again). To correct a rank, right-click the item and choose Venue Rank; to correct an acronym, click it in the strip under the tag selector. A line you correct is marked “(manual)” and never detected again. To mark a venue as unranked, use Venue Rank → Set to No Rank rather than deleting the line.

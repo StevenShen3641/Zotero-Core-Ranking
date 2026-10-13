@@ -1,0 +1,173 @@
+{
+  "retrieved": "2026-10-13",
+  "sources": {
+    "CORE": "https://portal.core.edu.au/conf-ranks/",
+    "CCF": "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+  },
+  "ccfFields": {
+    "architecture": {
+      "en": "Computer Architecture / Parallel and Distributed Computing / Storage Systems",
+      "zh": "计算机体系结构/并行与分布计算/存储系统"
+    },
+    "network": {
+      "en": "Computer Networks",
+      "zh": "计算机网络"
+    },
+    "security": {
+      "en": "Network and Information Security",
+      "zh": "网络与信息安全"
+    },
+    "software": {
+      "en": "Software Engineering / System Software / Programming Languages",
+      "zh": "软件工程/系统软件/程序设计语言"
+    },
+    "database": {
+      "en": "Databases / Data Mining / Content Retrieval",
+      "zh": "数据库/数据挖掘/内容检索"
+    },
+    "theory": {
+      "en": "Theoretical Computer Science",
+      "zh": "计算机科学理论"
+    },
+    "graphics": {
+      "en": "Computer Graphics and Multimedia",
+      "zh": "计算机图形学与多媒体"
+    },
+    "ai": {
+      "en": "Artificial Intelligence",
+      "zh": "人工智能"
+    },
+    "hci": {
+      "en": "Human-Computer Interaction and Pervasive Computing",
+      "zh": "人机交互与普适计算"
+    },
+    "interdisciplinary": {
+      "en": "Interdisciplinary / Comprehensive / Emerging",
+      "zh": "交叉/综合/新兴"
+    }
+  },
+  "editions": [
+    {
+      "id": "icore2026",
+      "system": "CORE",
+      "label": "CORE ICORE2026",
+      "year": 2026,
+      "types": [
+        "conference"
+      ],
+      "count": 987,
+      "file": "icore2026.json"
+    },
+    {
+      "id": "core2023",
+      "system": "CORE",
+      "label": "CORE CORE2023",
+      "year": 2023,
+      "types": [
+        "conference"
+      ],
+      "count": 956,
+      "file": "core2023.json"
+    },
+    {
+      "id": "core2021",
+      "system": "CORE",
+      "label": "CORE CORE2021",
+      "year": 2021,
+      "types": [
+        "conference"
+      ],
+      "count": 955,
+      "file": "core2021.json"
+    },
+    {
+      "id": "core2020",
+      "system": "CORE",
+      "label": "CORE CORE2020",
+      "year": 2020,
+      "types": [
+        "conference"
+      ],
+      "count": 882,
+      "file": "core2020.json"
+    },
+    {
+      "id": "core2018",
+      "system": "CORE",
+      "label": "CORE CORE2018",
+      "year": 2018,
+      "types": [
+        "conference"
+      ],
+      "count": 1625,
+      "file": "core2018.json"
+    },
+    {
+      "id": "core2017",
+      "system": "CORE",
+      "label": "CORE CORE2017",
+      "year": 2017,
+      "types": [
+        "conference"
+      ],
+      "count": 1592,
+      "file": "core2017.json"
+    },
+    {
+      "id": "core2014",
+      "system": "CORE",
+      "label": "CORE CORE2014",
+      "year": 2014,
+      "types": [
+        "conference"
+      ],
+      "count": 1628,
+      "file": "core2014.json"
+    },
+    {
+      "id": "core2013",
+      "system": "CORE",
+      "label": "CORE CORE2013",
+      "year": 2013,
+      "types": [
+        "conference"
+      ],
+      "count": 1615,
+      "file": "core2013.json"
+    },
+    {
+      "id": "era2010",
+      "system": "CORE",
+      "label": "CORE ERA2010",
+      "year": 2010,
+      "types": [
+        "conference"
+      ],
+      "count": 1917,
+      "file": "era2010.json"
+    },
+    {
+      "id": "core2008",
+      "system": "CORE",
+      "label": "CORE CORE2008",
+      "year": 2008,
+      "types": [
+        "conference"
+      ],
+      "count": 933,
+      "file": "core2008.json"
+    },
+    {
+      "id": "ccf2026",
+      "system": "CCF",
+      "label": "CCF 2026 (7th edition)",
+      "year": 2026,
+      "types": [
+        "conference",
+        "journal"
+      ],
+      "count": 681,
+      "file": "ccf2026.json"
+    }
+  ]
+}

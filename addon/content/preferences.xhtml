@@ -1,0 +1,38 @@
+<linkset>
+  <html:link rel="localization" href="__addonRef__-preferences.ftl" />
+</linkset>
+<groupbox
+  onload="Zotero.__addonInstance__.hooks.onPrefsEvent('load', { window })"
+>
+  <label><html:h2 data-l10n-id="pref-edition-title"></html:h2></label>
+  <hbox align="center">
+    <label
+      data-l10n-id="pref-edition"
+      control="zotero-prefpane-__addonRef__-edition"
+    />
+    <menulist id="zotero-prefpane-__addonRef__-edition" native="true">
+      <menupopup />
+    </menulist>
+  </hbox>
+  <description data-l10n-id="pref-edition-help" />
+  <hbox>
+    <button
+      id="zotero-prefpane-__addonRef__-fill"
+      data-l10n-id="pref-fill-libraries"
+    />
+    <button
+      id="zotero-prefpane-__addonRef__-redetect"
+      data-l10n-id="pref-redetect-libraries"
+    />
+  </hbox>
+  <description data-l10n-id="pref-libraries-help" />
+</groupbox>
+<groupbox>
+  <label><html:h2 data-l10n-id="pref-ranks-title"></html:h2></label>
+  <checkbox preference="autoRank" data-l10n-id="pref-auto-rank" />
+  <description data-l10n-id="pref-storage-help" />
+  <description data-l10n-id="pref-manual-help" />
+</groupbox>
+<groupbox>
+  <description id="zotero-prefpane-__addonRef__-sources" />
+</groupbox>

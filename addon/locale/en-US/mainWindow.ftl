@@ -1,0 +1,14 @@
+menu-rank =
+    .label = Venue Rank
+menu-set-rank =
+    .label = Set to { $rank }
+menu-set-none =
+    .label = Set to No Rank
+menu-detect-again =
+    .label = Detect Again from Venue
+menu-fill-library =
+    .label = Rank Items Without a Venue Rank
+section-header =
+    .label = Venue Rank
+section-sidenav =
+    .tooltiptext = Venue Rank

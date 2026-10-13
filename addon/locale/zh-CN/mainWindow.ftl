@@ -1,0 +1,14 @@
+menu-rank =
+    .label = 会议/期刊排名
+menu-set-rank =
+    .label = 设为 { $rank }
+menu-set-none =
+    .label = 设为无排名
+menu-detect-again =
+    .label = 根据出版物重新检测
+menu-fill-library =
+    .label = 为没有排名的条目检测排名
+section-header =
+    .label = 会议/期刊排名
+section-sidenav =
+    .tooltiptext = 会议/期刊排名

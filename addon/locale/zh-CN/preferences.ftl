@@ -1,0 +1,13 @@
+pref-edition-title = 排名
+pref-edition = 版本：
+pref-edition-help = 条目按此版本检测排名。已有该体系排名的条目保持不变；如需按新版本检测，请重新检测。
+pref-fill-libraries =
+    .label = 为没有排名的条目检测排名
+pref-redetect-libraries =
+    .label = 重新检测自动排名
+pref-libraries-help = 两个按钮都作用于你的所有文库。重新检测会保留你手动设置的排名。
+pref-ranks-title = 排名
+pref-auto-rank =
+    .label = 自动为新增和修改的条目检测排名
+pref-storage-help = 每个条目的排名和出版物缩写是其“其他”（Extra）字段中的同一行，例如“CORE: A* | NeurIPS”，因此两者始终对应同一个出版物。它们显示在“排名”列和标签选择器下方的栏中。如需按排名查找条目，请使用高级搜索：“其他”包含“CORE: A* |”。
+pref-manual-help = 新增条目或修改其出版物字段时，会（重新）检测其排名和缩写。如需更正排名，请右键点击条目并选择“会议/期刊排名”；如需更正缩写，请在标签选择器下方的栏中点击它。你更正过的行会标记为“(manual)”，不会再被检测。如需标记为无排名，请使用“会议/期刊排名 → 设为无排名”，而不要删除该行。
